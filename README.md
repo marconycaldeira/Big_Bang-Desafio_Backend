@@ -1,2 +1,2 @@
-# Big_Bang-Desafio_Backend
+# Big Bang - Desafio Backend
 Teste prático backend (PHP) - Entrevista Big Bang
