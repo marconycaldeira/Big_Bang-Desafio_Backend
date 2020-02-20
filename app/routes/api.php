@@ -2,4 +2,5 @@
 
 use Illuminate\Http\Request;
 
-Route::get('/getplaylist', 'Api\\PlaylistController@getPlaylistInJSONFile');
+Route::get('/getplaylist/city/{city?}', 'Api\\PlaylistController@getPlaylistByCityName');
+Route::get('/getplaylist/coordinates/{latitude?}/{longitude?}', 'Api\\PlaylistController@getPlaylistByCoordinates');
