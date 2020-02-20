@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  big-bang-app:
+    build:
+      context: ./docker/webserver
+    container_name: "big-bang-app"
+    restart: "always"
+    ports:
+      - "80:8080"
+    volumes:
+      - ./app:/var/www/app
