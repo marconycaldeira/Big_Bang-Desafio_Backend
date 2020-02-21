@@ -21,11 +21,11 @@ composer install
 Pra consumir a API, basta você realizar uma requisição HTTP para as seguintes rotas, lembrando que você poderá optar por quais critérios você deseja fazer a consulta, sendo eles:
 - Busca pelo nome da cidade;
 ```bash
-http://localhost/playlist/city/<NOME DA CIDADE>
+http://localhost/api/playlist/city/<NOME DA CIDADE>
 ```
 - Busca por coordenadas;
 ```bash
-http://localhost/playlist/coordinates/<LATITUDE>/<LONGITUDE>
+http://localhost/api/playlist/coordinates/<LATITUDE>/<LONGITUDE>
 ```
 
 ## Observações
